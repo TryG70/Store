@@ -9,6 +9,7 @@ import java.util.Scanner;
 
 public class Main {
 
+    public static Scanner scanner = new Scanner(System.in);
     public static void main(String[] args) {
 
         HashMap<String, Integer> products = new HashMap<>();
@@ -24,12 +25,13 @@ public class Main {
         Manager manager = new Manager(managerName);
 
 
-        Scanner scanner = new Scanner(System.in);
+
 
         // manager greeting
         manager.greeting();
 
-        String cashierName = scanner.next();
+
+        String cashierName = scanner.nextLine();
 
         // peopleModel.Manager Hiring peopleModel.Cashier
         manager.cashierQualify(cashierName);

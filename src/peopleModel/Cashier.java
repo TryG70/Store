@@ -26,9 +26,10 @@ public class Cashier implements CashierFunction {
     }
     @Override
     public void sellProducts(String customerName) {
-
         System.out.println("Hi " + customerName + ". I am " + getName() + ", Welcome to our store");
+
     }
+
 
     @Override
     public void listOfProducts(HashMap<String, Integer> products) {
@@ -40,6 +41,7 @@ public class Cashier implements CashierFunction {
         System.out.println("how many products will you like to buy?");
         System.out.println();
     }
+
 
     public void kindlyTypeIn() {
         System.out.println("Kindly type in the products you want.");
@@ -64,6 +66,6 @@ public class Cashier implements CashierFunction {
     }
 
     public void printReceipts(int totalAmount){
-        System.out.println("Here\'s your receipt, you are to pay " + totalAmount + "naira");
+        System.out.println("Here's your receipt, you are to pay " + totalAmount + "naira");
     }
 }

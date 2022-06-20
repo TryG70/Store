@@ -7,6 +7,7 @@ import interfaces.ManagerFunction;
 public class Manager implements ManagerFunction {
     private String name;
 
+
     public Manager(String name) {
         this.name = name;
     }

@@ -2,29 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c3530b5-5194-4952-a8d2-fbe3e720566d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/STORE.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/CashierFunction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/CashierFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/CustomerFunction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/CustomerFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/ManagerFunction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/ManagerFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/Staff.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/Staff.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/peopleModel/Cashier.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/peopleModel/Cashier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/peopleModel/Customer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/peopleModel/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/peopleModel/Manager.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/peopleModel/Manager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/Staff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/Staff.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/peopleModel/Cashier.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/peopleModel/Cashier.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/peopleModel/Cashier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/peopleModel/Cashier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/peopleModel/Manager.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/peopleModel/Manager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/peopleModel/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/peopleModel/Manager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +45,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/Users/decagon/Desktop/Decagon Java Tasks/OOP STORE MODEL - NWAKWASI TRYGOD",
     "run.code.analysis.last.selected.profile": "pProject Default"
   }
 }]]></component>
@@ -68,6 +54,15 @@
       <recent name="peopleModel" />
       <recent name="interfaces" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="MAIN" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="STORE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
