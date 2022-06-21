@@ -22,12 +22,11 @@ public class Cashier implements CashierFunction {
     }
 
     public void greeting() {
-        System.out.println("Welcome!, What is your name?");
+        System.out.println("Welcome to Decagon Store!, What is your name?");
     }
     @Override
     public void sellProducts(String customerName) {
         System.out.println("Hi " + customerName + ". I am " + getName() + ", Welcome to our store");
-
     }
 
 

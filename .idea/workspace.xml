@@ -5,6 +5,10 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/CashierFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/CashierFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/CustomerFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/CustomerFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/ManagerFunction.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/ManagerFunction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/ManagerFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/ManagerFunction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/interfaces/Staff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/Staff.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/peopleModel/Cashier.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/peopleModel/Cashier.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/peopleModel/Cashier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/peopleModel/Cashier.java" afterDir="false" />
@@ -20,8 +24,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>

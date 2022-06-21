@@ -1,5 +1,6 @@
 package interfaces;
 
+
 import java.util.HashMap;
 
 public interface CashierFunction extends Staff {

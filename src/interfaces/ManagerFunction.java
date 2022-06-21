@@ -1,8 +1,11 @@
 package interfaces;
 
+import peopleModel.Cashier;
+
 public interface ManagerFunction extends Staff {
 
-    void cashierQualify(String cashierName);
+    void haveAccDegree(String cashierName);
 
-    void hireCashier(boolean qualify);
+    boolean hireCashier(String qualify);
+    void hired(String customerName, boolean ifHired, Cashier cashier);
 }

@@ -7,6 +7,9 @@ import java.util.Scanner;
 
 
 
+
+
+
 public class Main {
 
     public static Scanner scanner = new Scanner(System.in);
@@ -19,6 +22,7 @@ public class Main {
         products.put("goldenMourn", 20);
         products.put("cornFlakes", 25);
 
+        // Manager's Name
         String managerName = "TryGod";
 
 
@@ -30,15 +34,21 @@ public class Main {
         // manager greeting
         manager.greeting();
 
-
+        // cashier to be hired inputs his/her name
         String cashierName = scanner.nextLine();
 
-        // peopleModel.Manager Hiring peopleModel.Cashier
-        manager.cashierQualify(cashierName);
 
-        boolean haveAccDegree = scanner.nextBoolean();
 
+        // Managers asks whether he/she has an Accounting degree
+        manager.haveAccDegree(cashierName);
+
+        // he/she answers whether they have a degree or not
+        String haveAccDegree = scanner.next();
+
+        // Manager hires cashier based on qualification
         manager.hireCashier(haveAccDegree);
+
+
 
 // End of peopleModel.Manager and peopleModel.Cashier Hiring Process
 
@@ -50,36 +60,43 @@ public class Main {
         // greeting the customer
         cashier.greeting();
 
+        // customer inputs name
         String customerName = scanner.next();
 
-        Customer customer = new Customer(customerName);
 
+        // Instantiating customer class
+        Customer customer = new Customer(customerName);
+        customer.setName(customerName);
 
 
         // getting customer name and asking how many things they want
-        cashier.sellProducts(customerName);
+        manager.hired(customer.getName(), Manager.hiredOrNot, cashier);
 
 
         // cashier prints out list of products
         cashier.listOfProducts(products);
 
+        // customer inputs list of products
         int numberOfProducts = scanner.nextInt();
 
+        // cashier ask customer to type in the products they want
         cashier.kindlyTypeIn();
 
+        // Declaring an array that will contain what the customer wants
         String[] customerProducts = new String[numberOfProducts];
 
 
+        // filling up the customerProducts array
         customer.customerList(numberOfProducts, customerProducts);
 
 
-
+        // calculating the total amount of everything the customer purchased
         int totalAmount = cashier.yourTotalAmount(customerProducts, products);
 
-            // customer enter the products he/she wants
 
 
-            // cashier prints receipt
+
+        // cashier prints receipt
         cashier.printReceipts(totalAmount);
 
 
