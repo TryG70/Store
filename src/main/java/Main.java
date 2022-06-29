@@ -45,7 +45,7 @@ public class Main {
         // he/she answers whether they have a degree or not
         String haveAccDegree = scanner.next();
 
-        // Manager hires cashier based on qualification
+        // Manager hires cashier based on whether they have an accounting degree or not
         manager.hireCashier(haveAccDegree);
 
 
@@ -74,24 +74,25 @@ public class Main {
 
 
         // cashier prints out list of products
-        cashier.listOfProducts(products);
+        cashier.printListOfProducts(products);
 
         // customer inputs list of products
         int numberOfProducts = scanner.nextInt();
 
         // cashier ask customer to type in the products they want
-        cashier.kindlyTypeIn();
+        cashier.askingCustomerForProducts();
 
         // Declaring an array that will contain what the customer wants
-        String[] customerProducts = new String[numberOfProducts];
+        String[] customerProducts;
+
 
 
         // filling up the customerProducts array
-        customer.customerList(numberOfProducts, customerProducts);
+        customerProducts = customer.customerList(numberOfProducts);
 
 
         // calculating the total amount of everything the customer purchased
-        int totalAmount = cashier.yourTotalAmount(customerProducts, products);
+        int totalAmount = cashier.calculateTotalPrice(customerProducts, products);
 
 
 

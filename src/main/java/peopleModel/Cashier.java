@@ -31,7 +31,8 @@ public class Cashier implements CashierFunction {
 
 
     @Override
-    public void listOfProducts(HashMap<String, Integer> products) {
+    // prints list of available products in the store
+    public void printListOfProducts(HashMap<String, Integer> products) {
         System.out.println("Here is our list of products");
         System.out.println();
         for (String i: products.keySet()) {
@@ -42,28 +43,32 @@ public class Cashier implements CashierFunction {
     }
 
 
-    public void kindlyTypeIn() {
+    // Requesting the customer to input names of the items they want.
+    public void askingCustomerForProducts() {
         System.out.println("Kindly type in the products you want.");
         System.out.println("After each product entry, press the enter key");
         System.out.println();
     }
 
-    public int yourTotalAmount(String[] customerProduct, HashMap<String, Integer> products) {
+    // checking if an item in the customer list is present in the store product list.
+    // if item exists, adding the price(value) of the item to the total price.
+    public int calculateTotalPrice(String[] customerProduct, HashMap<String, Integer> products) {
 
         int totalPrice = 0;
         for (String s : customerProduct) {
 
-            boolean isProductPresent = products.containsKey(s);
+            boolean isProductPresent = products.containsKey(s);  // checks if the products contains the customer product
 
             if (isProductPresent) {
-                totalPrice += products.get(s);
+                totalPrice += products.get(s); // if it has products, add the value of the product to the total price
             } else {
-                System.out.println("We don\"t have that product");
+                System.out.println("We don\"t have that product");  // if it doesn't contain the product, print out this
             }
         }
         return totalPrice;
     }
 
+    // print the receipt containing the total price of items bought by customer
     public void printReceipts(int totalAmount){
         System.out.println("Here's your receipt, you are to pay " + totalAmount + "naira");
     }

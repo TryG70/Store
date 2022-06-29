@@ -20,11 +20,14 @@ public class Customer implements CustomerFunction {
         this.name = name;
     }
 
-    public void customerList(int productsNum, String[] customerList) {
+    // customer inputs list of items they want, hence, creating an array of customer list of products
+    public String[] customerList(int productsNum) {
+        String[] customerList = new String[productsNum];
         Scanner scanner = new Scanner(System.in);
         for (int i = 0; i < productsNum; i++) {
             customerList[i] = scanner.next();
         }
+        return customerList;
     }
 
 

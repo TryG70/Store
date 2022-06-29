@@ -1,8 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c3530b5-5194-4952-a8d2-fbe3e720566d" name="Changes" comment="">
+    <list default="true" id="6c3530b5-5194-4952-a8d2-fbe3e720566d" name="Changes" comment="new Commit">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_9_0_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_9_0_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_9_0_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_9_0_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_9_0_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_9_0_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/peopleModel/CashierTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/peopleModel/ManagerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/STORE.iml" beforeDir="false" afterPath="$PROJECT_DIR$/STORE.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/CashierFunction.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interfaces/CashierFunction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/CashierFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interfaces/CashierFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/CustomerFunction.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interfaces/CustomerFunction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/CustomerFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interfaces/CustomerFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/ManagerFunction.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interfaces/ManagerFunction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/ManagerFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interfaces/ManagerFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/Staff.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interfaces/Staff.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/Staff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interfaces/Staff.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/peopleModel/Cashier.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/peopleModel/Cashier.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/peopleModel/Cashier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/peopleModel/Cashier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/peopleModel/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/peopleModel/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/peopleModel/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/peopleModel/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/peopleModel/Manager.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/peopleModel/Manager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/peopleModel/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/peopleModel/Manager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +49,7 @@
         <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -38,17 +73,26 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/Users/decagon/Desktop/Decagon Java Tasks/OOP STORE MODEL - NWAKWASI TRYGOD",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
+    "last_opened_file_path": "/Users/decagon/Desktop/Decagon Java Tasks/OOP_STORE_MODEL _NwakwasTryGod",
     "run.code.analysis.last.selected.profile": "pProject Default"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="peopleModel" />
       <recent name="interfaces" />
     </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="peopleModel" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.CustomerTest.customerList">
     <configuration name="MAIN" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="STORE" />
@@ -56,6 +100,94 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CustomerTest.customerList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="STORE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="peopleModel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="peopleModel" />
+      <option name="MAIN_CLASS_NAME" value="peopleModel.CustomerTest" />
+      <option name="METHOD_NAME" value="customerList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="STORE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="peopleModel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="peopleModel" />
+      <option name="MAIN_CLASS_NAME" value="peopleModel.ManagerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ManagerTest.cashierHired" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="STORE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="peopleModel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="peopleModel" />
+      <option name="MAIN_CLASS_NAME" value="peopleModel.ManagerTest" />
+      <option name="METHOD_NAME" value="cashierHired" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ManagerTest.cashierNotHired" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="STORE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="peopleModel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="peopleModel" />
+      <option name="MAIN_CLASS_NAME" value="peopleModel.ManagerTest" />
+      <option name="METHOD_NAME" value="cashierNotHired" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ManagerTest.hireCashier" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="STORE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="peopleModel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="peopleModel" />
+      <option name="MAIN_CLASS_NAME" value="peopleModel.ManagerTest" />
+      <option name="METHOD_NAME" value="hireCashier" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CustomerTest.customerList" />
+        <item itemvalue="JUnit.ManagerTest" />
+        <item itemvalue="JUnit.ManagerTest.cashierHired" />
+        <item itemvalue="JUnit.ManagerTest.cashierNotHired" />
+        <item itemvalue="JUnit.ManagerTest.hireCashier" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -66,6 +198,14 @@
       <option name="presentableId" value="Default" />
       <updated>1655555853576</updated>
     </task>
+    <task id="LOCAL-00001" summary="new Commit">
+      <created>1655812671369</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1655812671370</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -78,5 +218,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="new Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="new Commit" />
   </component>
 </project>
